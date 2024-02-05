@@ -1,7 +1,6 @@
 'use strict';
 
 
-
 /**
  * add event listener on multiple elements
  */
@@ -11,7 +10,6 @@ const addEventOnElements = function (elements, eventType, callback) {
     elements[i].addEventListener(eventType, callback);
   }
 }
-
 
 
 /**
@@ -31,7 +29,6 @@ const toggleNavbar = function () {
 addEventOnElements(navTogglers, "click", toggleNavbar);
 
 
-
 /**
  * HEADER
  * active header when window scroll down to 100px
@@ -46,7 +43,6 @@ window.addEventListener("scroll", function () {
     header.classList.remove("active");
   }
 });
-
 
 
 /**
@@ -70,3 +66,4 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
+
