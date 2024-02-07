@@ -639,6 +639,15 @@ body.nav-active { overflow: hidden; }
   font-weight: 700;
 }
 
+.progress-list .label-wrapper2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-block-end: 4px;
+  color: rgb(66, 65, 65);
+  font-weight: 700;
+}
+
 .progress-item:not(:last-child) { margin-block-end: 16px; }
 
 .progress {
@@ -651,16 +660,10 @@ body.nav-active { overflow: hidden; }
 
 .progress-fill { height: inherit; }
 
-
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
-  .progress-list .label-wrapper {
-      flex-direction: column;
-      text-align: center;
-  }
-
   .progress {
-      width: 90%;
+      width: 85%;
   }
 }
 
