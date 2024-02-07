@@ -67,3 +67,9 @@ for (let i = 0, len = revealDelayElements.length; i < len; i++) {
 window.addEventListener("scroll", reveal);
 window.addEventListener("load", reveal);
 
+// Add this JavaScript code
+
+function toggleMenu() {
+  var menu = document.querySelector('.menu');
+  menu.classList.toggle('active');
+}

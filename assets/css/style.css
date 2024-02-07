@@ -651,6 +651,25 @@ body.nav-active { overflow: hidden; }
 
 .progress-fill { height: inherit; }
 
+
+/* Mobile menu styles */
+@media screen and (max-width: 768px) {
+  .menu {
+      display: none; /* Hide menu items by default on smaller screens */
+      flex-direction: column;
+      position: absolute;
+      top: 60px;
+      left: 0;
+      background-color: #222;
+      width: 100%;
+      padding: 10px;
+  }
+
+  .menu-toggle {
+      display: block; /* Show menu toggle button on smaller screens */
+  }
+}
+
 .about-card { text-align: center; }
 
 .about-card .card-icon {
@@ -701,6 +720,8 @@ body.nav-active { overflow: hidden; }
       display: block;
   }
 }
+
+
 
 /*-----------------------------------*\
   #PROJECTS
