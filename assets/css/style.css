@@ -663,7 +663,7 @@ body.nav-active { overflow: hidden; }
 /* Mobile Styles */
 @media only screen and (max-width: 768px) {
   .progress {
-      width: 85%;
+      width: 88%;
   }
 }
 
