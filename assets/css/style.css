@@ -858,7 +858,7 @@ body.nav-active { overflow: hidden; }
 
 .slider {
   position: relative;
-  max-width: 400px; /* Adjust based on your preference */
+  max-width: 470px; /* Adjust based on your preference */
   margin: auto;
   overflow: hidden;
 }
