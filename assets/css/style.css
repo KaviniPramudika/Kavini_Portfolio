@@ -856,12 +856,9 @@ body.nav-active { overflow: hidden; }
   height: 100%;
 }
 
-
-
-
 .slider {
   position: relative;
-  max-width: 600px; /* Adjust based on your preference */
+  max-width: 400px; /* Adjust based on your preference */
   margin: auto;
   overflow: hidden;
 }
@@ -973,6 +970,8 @@ textarea.input-field {
 .progress-item {
   margin-bottom: 20px;
 }
+
+
 
 /*-----------------------------------*\
   #MEDIA QUERIES
